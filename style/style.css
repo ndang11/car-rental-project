@@ -4,11 +4,6 @@
   box-sizing: 0;
 }
 
-body {
-  background-color: #f3f5f7;
-  padding: 15px;
-}
-
 header {
   display: flex;
 }
@@ -16,6 +11,7 @@ header {
 @media (min-width: 320px) {
   body {
     background-color: #f3f5f7;
+    padding: 15px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
   }
@@ -64,6 +60,10 @@ header {
       width: 270px;
       margin-bottom: 10px;
     }
+
+    p {
+        margin-bottom: 25px;
+    }
   }
 
   .display-card-2 {
@@ -82,13 +82,12 @@ header {
 
   .rent {
     height: 30px;
-    padding: 10px 16px;
+    padding: 10px 20px;
     color: white;
     background-color: #3563e9;
-    text-align: center;
     border-radius: 5px;
     border: none;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   .direction {
@@ -115,15 +114,21 @@ header {
     margin-top: 30px;
     margin-bottom: 30px;
 
+    h3 {
+        color: #90a3bf;
+    }
+
     span {
       color: #54a6ff;
     }
   }
 
-  .car-details {
+  .car-details,
+  .car-details-1 {
     background-color: white;
     padding: 8px;
     border-radius: 10px;
+    width: 230px;
   }
 
   .car-11 {
@@ -138,7 +143,6 @@ header {
 
   .car-block {
     margin-top: 40px;
-  margin-left: 30px;
   margin-bottom: 30px;
 
     img {
@@ -171,6 +175,7 @@ header {
 
   .price-1 {
     display: flex;
+    flex-wrap: wrap;
 
     span {
         font-weight: 700;
@@ -185,7 +190,56 @@ header {
     }
   }
 
+  .description {
+    display: flex;
+    gap: 15px;
+    overflow-y: hidden;
+  }
 
+  .recomendation {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(1 7fr);
+  }
 
+  .car-details-sec,
+  .car-details-11 {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+ .function-details {
+    color: #90a3bf;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    span {
+        padding: 5px;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    img {
+        height: 14px;
+        width: 14px;
+    }
+ }
+
+ .car-sec1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .btn-1 {
+    align-items: center;
+ }
+
+ footer {
+    margin-top: 30px;
+ }
 
 }
