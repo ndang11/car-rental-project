@@ -292,8 +292,6 @@
   }
 }
 
-
-
 /* mobile */
 @media (max-width: 320px) {
   body {
@@ -304,7 +302,6 @@
   }
 
   header {
-    /* display: flex; */
     align-items: center;
     margin-bottom: 60px;
     gap: 25px;
@@ -322,11 +319,8 @@
     background-color: #3563e9;
     border-radius: 5px;
     border: none;
-    /* margin-top: 20px; */
   }
 
-  .direction {
-  }
 
   .location {
     background-color: white;
