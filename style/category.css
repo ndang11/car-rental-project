@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+@media (min-width: 320px) {
+  body {
+    background-color: #f3f5f7;
+    padding: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  header {
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+  .model,
+  .profile,
+  .like {
+    display: none;
+  }
+
+  .display-card {
+    background-color: #54a6ff;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    min-width: 270px;
+
+    img {
+      max-width: 70vw;
+      margin-left: 25px;
+    }
+
+    h3 {
+      max-width: 270px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 25px;
+      max-width: 280px;
+    }
+  }
+
+  .grid {
+    display: flex;
+    gap: 10px;
+
+    img {
+      max-width: 29vw;
+    }
+  }
+
+  .design-card {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    min-width: 270px;
+    margin-top: 25px;
+
+    p {
+      letter-spacing: -2%;
+      color: #90a3bf;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .car-11 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .car-descript span {
+    color: #90a3bf;
+    align-items: center;
+    font-weight: 500;
+  }
+
+  .car-descript img {
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  .pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .price-1 {
+    display: flex;
+    flex-wrap: wrap;
+
+    span {
+      font-weight: 700;
+      font-size: 1.25rem;
+      text-align: center;
+    }
+
+    p {
+      color: #90a3bf;
+      text-align: center;
+      margin-top: 5px;
+    }
+  }
+
+  .tag1 {
+    text-decoration: line-through;
+  }
+
+  .rent {
+    padding: 8px 10px;
+    color: white;
+    background-color: #3563e9;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .reviews {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    min-width: 270px;
+    margin-top: 25px;
+
+    p {
+        color: #90a3bf; 
+    }
+  }
+
+  .ref-1 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+
+    span {
+        background-color: #3563e9;
+        width: 30px;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+    }
+  }
+
+  .comments {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .line-11 {
+    display: flex;
+    gap: 8px;
+  }
+
+  .pop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    h3 {
+      color: #90a3bf;
+    }
+
+    span {
+      color: #54a6ff;
+      justify-content: flex-end;
+    }
+  }
+  
+
+  .description {
+    display: flex;
+    gap: 15px;
+    overflow-y: hidden;
+  } 
+
+  .car-details,
+  .car-details-1 {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    width: 230px;
+  }
+
+  .car-11 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .car-details-sec,
+  .car-details-11 {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+  .function-details {
+    color: #90a3bf;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    span {
+      padding: 5px;
+      align-items: center;
+      font-size: 1rem;
+      font-weight: 400;
+      gap: 3px;
+      display: flex;
+    }
+
+    img {
+      height: 14px;
+      width: 14px;
+    }
+  }
+
+  .car-block {
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    img {
+      width: 60vw;
+    }
+  }
+
+  .functions {
+    color: #90a3bf;
+    margin-bottom: 20px;
+
+    span {
+      padding: 5px;
+      align-items: center;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    img {
+      height: 14px;
+      width: 14px;
+    }
+  }
+
+  .recomendation {
+    display: flex;
+    gap: 15px;
+    overflow-y: hidden;
+  }
+
+  /* footer section */
+  footer {
+    margin-top: 40px;
+  }
+
+  .side img {
+    margin-bottom: 20px;
+  }
+
+  .side p {
+    color: #90a3bf;
+  }
+
+  .sec-1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  h4 {
+    margin-bottom: 10px;
+  }
+
+  .doc {
+    color: #90a3bf;
+    display: flex;
+    padding: 5px 10px;
+  }
+
+}

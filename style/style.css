@@ -429,41 +429,6 @@
   .search-box :focus {
     outline: none;
   }
-/* 
-  header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 60px;
-    gap: 25px;
-    background-color: #ffffff;
-  }
-
-  .search-bar {
-    margin-bottom: -80px;
-    margin-left: -155px;
-    margin-top: 20px;
-    position: relative;
-    align-items: center;
-
-    img {
-      position: absolute;
-      color: #596780;
-    }
-  }
-
-  .search-box {
-    height: 30px;
-    border-radius: 8px;
-    padding: 4px;
-    color: #596780;
-    width: 200px;
-    border: 1px solid #9ea6ad;
-    background-color: #f3f5f7;
-  }
-
-  .profile {
-    display: none;
-  } */
 
   .display-card {
     background-color: #54a6ff;
@@ -502,10 +467,6 @@
     background-color: #3563e9;
     border-radius: 5px;
     border: none;
-    /* margin-top: 20px; */
-  }
-
-  .direction {
   }
 
   .location {
@@ -621,12 +582,7 @@
     grid-template-columns: repeat(1 7fr);
   }
 
-  .car-details-sec,
-  .car-details-11 {
-    background-color: white;
-    padding: 8px;
-    border-radius: 10px;
-  }
+c
 
   .function-details {
     color: #90a3bf;
