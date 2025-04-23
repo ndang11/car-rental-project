@@ -86,12 +86,14 @@ main {
     display: flex;
 }
 
-.promo {
+.promo,
+.locate {
     min-width: 275px;
     height: 40px;
     border: none;
     border-radius: 10px;
-    background-color: #F6F7F9;  
+    background-color: #F6F7F9;
+    margin-top: 10px;  
 }
 
 button {
@@ -115,11 +117,25 @@ button {
     margin-top: 20px;
 }
 
-.detail-container {
+.detail-container,
+.detail-container-2,
+.payment-card,
+.confirmation-card {
     background-color: white;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.personal-info p,
+.personal-info-11 p,
+.personal-info-33 p,
+.personal-info-44 p,
+.credit p {
+    margin-top: 10px;
+    font-weight: 600;
+
 }
 
 .info {
@@ -131,3 +147,29 @@ button {
         color:  #90A3BF;
     }
 }
+
+.credit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-box-1,
+.check-box-2 {
+    background-color: #F6F7F9;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 275px;
+}
+
+.rent {
+    padding: 8px 10px;
+    color: white;
+    background-color: #3563e9;
+    border-radius: 5px;
+    border: none;
+  }
