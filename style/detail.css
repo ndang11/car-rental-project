@@ -13,25 +13,22 @@
   header {
     display: flex;
     align-items: center;
-    gap: 15.5%;
+    justify-content: space-between;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 20px 20px;
   }
 
   .profile {
     display: flex;
     gap: 10px;
+    margin-right: -300px;
 
     img {
       background-color: white;
       border: 3px solid #f3f5f7;
       border-radius: 50px;
-      margin-right: 20px;
+      padding: 5px;
     }
-  }
-
-  .pro-img {
-    margin-right: 20px;
   }
 
   .search-bar {
@@ -86,7 +83,7 @@
     }
 
     img {
-        width: 90%;
+      width: 90%;
     }
   }
 
@@ -100,20 +97,6 @@
     color: #9ea6ad;
   }
 
-  .navigate {
-    display: flex;
-    margin-bottom: 30px;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .location {
-    background-color: white;
-    padding: 10px 8px 10px;
-    border-radius: 8px;
-  }
-
   button {
     background-color: #3563e9;
     padding: 20px 20px;
@@ -122,12 +105,61 @@
     justify-self: center;
   }
 
+  .arrow {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    align-items: center;
+    margin-top: -15px;
+  }
+
   .rent {
     padding: 10px 20px;
     color: white;
     background-color: #3563e9;
     border-radius: 5px;
     border: none;
+  }
+
+  .direction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h4 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      align-items: center;
+      display: flex;
+      gap: 5px;
+    }
+  }
+
+  .destination {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 10px 20px;
+    margin-bottom: 20px;
+  }
+
+  .location {
+    display: flex;
+    gap: 50px;
+
+    p {
+      font-weight: 600;
+      padding: 5px;
+    }
+  }
+
+  select {
+    color: #9ea6ad;
+    border: none;
+  }
+
+  .name {
+    border-right: 1px solid #9ea6ad;
+    padding-right: 10px;
   }
 
   /* card section */
@@ -153,8 +185,8 @@
     span {
       padding: 5px;
       align-items: center;
-      font-size: 1rem;
-      font-weight: 400;
+      display: flex;
+      gap: 5px;
     }
 
     img {
@@ -183,7 +215,6 @@
     color: #90a3bf;
     margin-top: 8px;
   }
-
 
   .pricing {
     display: flex;
@@ -247,7 +278,7 @@
     justify-content: space-between;
     border-bottom: 1px solid #90a3bf;
     padding-bottom: 10px;
-    margin-left: 35px;
+    margin-left: 20px;
   }
 
   .footer-list {
@@ -290,7 +321,7 @@
   }
 }
 
-/* mobile */
+/* mobile view */
 @media (max-width: 320px) {
   body {
     background-color: #f3f5f7;
@@ -301,7 +332,7 @@
 
   header {
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     gap: 25px;
     background-color: #ffffff;
   }
@@ -319,12 +350,51 @@
     border: none;
   }
 
+  .arrow {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    margin-top: -15px;
+    margin-bottom: -15px;
+  }
+
+  .name {
+    border-right: 1px solid #9ea6ad;
+    padding-right: 3px;
+  }
+
+  .direction {
+    margin-bottom: 20px;
+
+    h4 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      align-items: center;
+      display: flex;
+      gap: 5px;
+    }
+  }
+
+  .destination {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 10px 20px;
+  }
 
   .location {
-    background-color: white;
-    padding: 10px 8px 10px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    display: flex;
+    /* gap: 5px; */
+
+    p {
+      font-weight: 600;
+      padding: 5px;
+    }
+  }
+
+  select {
+    color: #9ea6ad;
+    border: none;
+    font-size: 10px;
   }
 
   button {
@@ -369,12 +439,13 @@
     margin-top: 8px;
   }
 
-  .car-block {
+
+  .car-block1 {
     margin-top: 40px;
     margin-bottom: 30px;
 
     img {
-      width: 70vw;
+      width: 60vw;
     }
   }
 
@@ -445,13 +516,14 @@
     color: #90a3bf;
     margin-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 
     span {
       padding: 5px;
       align-items: center;
       font-size: 1rem;
-      font-weight: 400;
+      gap: 1px;
+      display: flex;
     }
 
     img {
