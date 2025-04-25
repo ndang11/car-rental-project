@@ -293,10 +293,10 @@
     justify-content: space-between;
 
     span {
-        padding: 5px;
-        align-items: center;
-        display: flex;
-        gap: 5px;
+      padding: 5px;
+      align-items: center;
+      display: flex;
+      gap: 5px;
     }
 
     img {
@@ -506,13 +506,12 @@
     padding-right: 3px;
   }
 
-
   .direction h4 {
-      font-size: 1.5rem;
-      margin-bottom: 10px;
-      align-items: center;
-      display: flex;
-      gap: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
   }
 
   .destination {
@@ -536,7 +535,6 @@
     border: none;
     font-size: 10px;
   }
-
 
   .pop {
     display: flex;

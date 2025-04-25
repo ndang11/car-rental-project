@@ -4,245 +4,562 @@
   box-sizing: 0;
 }
 
-@media (max-width: 1024px) {
-    body {
-        background-color: #f6f7f9;
-        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-      }
-}
+@media (min-width: 1025px) {
+  body {
+    background-color: #f6f7f9;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
 
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 20px 20px;
+  }
 
+  .profile {
+    display: flex;
+    gap: 10px;
+    margin-right: -300px;
 
+    img {
+      background-color: white;
+      border: 3px solid #f3f5f7;
+      border-radius: 50px;
+      padding: 5px;
+    }
+  }
 
+  .rental-summary-11 {
+    display: none;
+  }
 
+  main {
+    margin: 30px;
+  }
 
+  .billing-info {
+    display: flex;
+    gap: 25px;
+  }
 
+  .rental-summary {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 370px;
+    height: 470px;
 
+    h3 {
+      margin-bottom: 10px;
+    }
 
+    p {
+      color: #90a3bf;
+      margin-bottom: 15px;
+    }
+  }
 
+  .detail-container,
+  .detail-container-2,
+  .payment-card,
+  .confirmation-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
 
-/* mobile view */
-@media (max-width: 320px) {
-body {
-  background-color: #f6f7f9;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
+  .draft {
+    display: flex;
+    gap: 25px;
+  }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding: 10px;
-}
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 
-.profile,
-.rental-summary {
-  display: none;
-}
+    p {
+      color: #90a3bf;
+    }
+  }
 
-main {
-  padding: 10px;
-}
+  .promo {
+    width: 340px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f6f7f9;
+    margin-top: 10px;
+    padding-inline: 10px;
+  }
 
-.rental-summary-11 {
-  background-color: white;
-  border-radius: 8px;
-  padding: 10px;
-  margin-top: 10px;
+  .personal-info p,
+  .personal-info-11 p,
+  .personal-info-33 p,
+  .personal-info-44 p {
+    margin-top: 10px;
+    font-weight: 600;
+  }
 
-  h3 {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .car-description {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #90a3bf;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+  }
+
+  .car-type-22 {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      margin-top: 5px;
+    }
+  }
+
+  .car-type img {
+    width: 10vw;
+    height: 18vh;
+  }
+
+  .total {
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 
-  p {
-    color: #90a3bf;
-    margin-bottom: 15px;
+  .sub-total,
+  .sub-total-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
   }
-}
 
-.car-description {
-  display: flex;
-  gap: 15px;
-  border-bottom: 1px solid #90a3bf;
-  padding-bottom: 25px;
-  margin-bottom: 20px;
-}
-
-.car-type-22 {
-  display: flex;
-  flex-direction: column;
-
-  span {
-    margin-top: 5px;
-  }
-}
-
-.car-type img {
-  width: 40vw;
-  height: 18vh;
-}
-
-.total {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.sub-total,
-.sub-total-1 {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
-}
-
-.sub {
-  color: #90a3bf;
-}
-
-.promo-code {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.promo,
-.locate {
-  width: 285px;
-  height: 40px;
-  border: none;
-  border-radius: 10px;
-  background-color: #f6f7f9;
-  margin-top: 10px;
-}
-
-button {
-  background-color: #f6f7f9;
-  margin-left: -70px;
-  border: none;
-}
-
-.price {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.tim {
-  font-size: 1.5rem;
-}
-
-/* billing section */
-.billing-card {
-  margin-top: 20px;
-}
-
-.detail-container,
-.detail-container-2,
-.payment-card,
-.confirmation-card {
-  background-color: white;
-  border-radius: 8px;
-  padding: 10px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-}
-
-.personal-info p,
-.personal-info-11 p,
-.personal-info-33 p,
-.personal-info-44 p,
-.credit p {
-  margin-top: 10px;
-  font-weight: 600;
-}
-
-.info {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-
-  p {
+  .sub {
     color: #90a3bf;
   }
-}
 
-.credit {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 20px;
-}
+  .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
 
-.check-box-1,
-.check-box-2 {
-  background-color: #f6f7f9;
-  margin-top: 20px;
-  border-radius: 10px;
-  height: 60px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  gap: 15px;
-}
+  .tim {
+    font-size: 1.5rem;
+  }
 
-.check-box-11,
-.check-box-22 {
-  background-color: #f6f7f9;
-  margin-top: 20px;
-  border-radius: 10px;
-  height: 30px;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  justify-content: space-between;
-  font-weight: 500;
-}
+  button {
+    background-color: #f6f7f9;
+    border: none;
+    z-index: 1;
+    margin-left: -80px;
+  }
 
-.rent {
-  padding: 8px 10px;
-  color: white;
-  background-color: #3563e9;
-  border-radius: 5px;
-  border: none;
-}
+  .credit-card {
+    background-color: #f6f7f9;
+    padding: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
 
-.credit-card {
-  background-color: #f6f7f9;
-  padding: 5px;
-  padding-bottom: 20px;
-  border-radius: 5px;
-}
+  .credit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
 
-.cvc {
-  width: 270px;
-  height: 40px;
-  border: none;
-  border-radius: 10px;
-  background-color: white;
-  margin-top: 10px;
-}
+    p {
+      display: flex;
+      gap: 5px;
+      font-weight: 600;
+      align-items: center;
+    }
+  }
 
-.security {
+  .cvc {
+    width: 340px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding-inline: 10px;
+  }
+
+  .check-box-11,
+  .check-box-22 {
+    background-color: #f6f7f9;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 30px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+
+  .check-box-1,
+  .check-box-2 {
+    background-color: #f6f7f9;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+
+  .level {
+    display: flex;
+    gap: 5px;
+  }
+
+  .rent {
+    padding: 8px 10px;
+    color: white;
+    background-color: #3563e9;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .btn {
+    display: flex;
+    margin-left: 80px;
+  }
+
+  .security {
     padding: 5px;
     margin-top: 20px;
 
     p {
-        color: #90a3bf;
-        margin-top: 10px;
+      color: #90a3bf;
+      margin-top: 10px;
     }
 
     h3 {
-        margin-top: 10px;
+      margin-top: 10px;
     }
+  }
+
+  /* footer section */
+  footer {
+    background-color: white;
+  }
+
+  .side {
+    margin-bottom: 20px;
+  }
+
+  .side img {
+    margin-bottom: 20px;
+  }
+
+  .side p {
+    color: #90a3bf;
+    width: 250px;
+  }
+
+  .footer-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #90a3bf;
+    padding-bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-right: 40px;
+
+    h4 {
+      margin-bottom: 20px;
+    }
+  }
+
+  .sec-1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    gap: 100px;
+  }
+
+  .doc {
+    color: #90a3bf;
+    display: flex;
+    line-height: 180%;
+  }
+
+  .foot-ending {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 10px;
+  }
+
+  .ending {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+
+  .ending-1 {
+    display: none;
+  }
 }
 
- /* footer section */
- footer {
+/* mobile view */
+@media (max-width: 320px) {
+  body {
+    background-color: #f6f7f9;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding: 10px;
+  }
+
+  .profile,
+  .rental-summary {
+    display: none;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .rental-summary-11 {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+
+    h3 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #90a3bf;
+      margin-bottom: 15px;
+    }
+  }
+
+  .car-description {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #90a3bf;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+  }
+
+  .car-type-22 {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      margin-top: 5px;
+    }
+  }
+
+  .car-type img {
+    width: 40vw;
+    height: 18vh;
+  }
+
+  .total {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .sub-total,
+  .sub-total-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  .sub {
+    color: #90a3bf;
+  }
+
+  .promo-code {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .promo {
+    width: 285px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f6f7f9;
+    margin-top: 10px;
+    padding-inline: 10px;
+  }
+
+  button {
+    background-color: #f6f7f9;
+    border: none;
+  }
+
+  .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tim {
+    font-size: 1.5rem;
+  }
+
+  /* billing section */
+  .billing-card {
+    margin-top: 20px;
+  }
+
+  .detail-container,
+  .detail-container-2,
+  .payment-card,
+  .confirmation-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .personal-info p,
+  .personal-info-11 p,
+  .personal-info-33 p,
+  .personal-info-44 p,
+  .credit p {
+    margin-top: 10px;
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    p {
+      color: #90a3bf;
+    }
+  }
+
+  .credit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .check-box-1,
+  .check-box-2 {
+    background-color: #f6f7f9;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+
+  .check-box-11,
+  .check-box-22 {
+    background-color: #f6f7f9;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 30px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+
+  .level {
+    display: flex;
+    gap: 5px;
+  }
+
+  .rent {
+    padding: 8px 10px;
+    color: white;
+    background-color: #3563e9;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .credit-card {
+    background-color: #f6f7f9;
+    padding: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .cvc {
+    width: 270px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    padding-inline: 10px;
+  }
+
+  .security {
+    padding: 5px;
+    margin-top: 20px;
+
+    p {
+      color: #90a3bf;
+      margin-top: 10px;
+    }
+
+    h3 {
+      margin-top: 10px;
+    }
+  }
+
+  /* footer section */
+  footer {
     margin-top: 40px;
     padding: 10px;
   }

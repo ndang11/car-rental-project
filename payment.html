@@ -66,6 +66,7 @@
           </div>
               <p>Step 1 of 4</p>
           </div>
+          <div class="draft">
             <div class="personal-info">
               <div class="name">
                 <p>Name</p>
@@ -87,6 +88,7 @@
               </div>
             </div>
           </div>
+          </div>
           <!-- rental info card -->
           <div class="detail-container-2">
             <div class="info">
@@ -98,9 +100,10 @@
             </div>
              <div class="personal-info-33">
               <p><img src="./images/Mark-dot.png" alt="">Pick-Up</p>
+              <div class="grid">
               <div class="name">
                 <p>Location</p>
-               <select name="text" class="locate">
+               <select name="text" class="promo">
                 <option value="text">Select your city</option>
                 <option value="text">Yaounde</option>
                 <option value="text">Douala</option>
@@ -110,23 +113,25 @@
               </div>
               <div class="name">
                 <p>Date</p>
-               <select name="text" class="locate">
+               <select name="text" class="promo">
                 <option value="text">Select your date</option>
                </select>
               </div>
               <div class="name">
                 <p>Time</p>
-               <select name="text" class="locate">
+               <select name="text" class="promo">
                 <option value="text">Select your time</option>
                </select>
               </div>
+            </div>
              </div>
              <!-- drop off -->
              <div class="personal-info-44">
               <p><img src="./images/Mark-dot.png" alt="">Drop-Off</p>
+              <div class="grid">
               <div class="name">
                 <p>Location</p>
-               <select name="text" class="locate">
+               <select name="text" class="promo">
                 <option value="text">Select your city</option>
                 <option value="text">Yaounde</option>
                 <option value="text">Douala</option>
@@ -136,16 +141,17 @@
               </div>
               <div class="name">
                 <p>Date</p>
-               <select name="text" class="locate">
+               <select name="text" class="promo">
                 <option value="text">Select your date</option>
                </select>
               </div>
               <div class="name">
                 <p>Time</p>
-               <select name="text" class="locate">
+               <select name="text" class="promo">
                 <option value="text">Select your time</option>
                </select>
               </div>
+             </div>
              </div>
           </div>
           <!-- payment deatils -->
@@ -159,9 +165,10 @@
             </div>
             <div class="credit-card">
               <div class="credit">
-                <p><img src="./images/dot.png" alt="">Credit Card</p>
+                <p><img src="./images/Mark-dot.png" alt="">Credit Card</p>
                 <img src="./images/Visa.png" alt="">
               </div>
+              <div class="grid">
             <div class="personal-info">
               <div class="name">
                 <p>Card Number</p>
@@ -183,11 +190,22 @@
               </div>
             </div>
           </div>
+          </div>
           <div class="check-box-11">
-            <input type="checkbox" class="box">PayPal<img src="./images/PayPal.png" alt="">
+            <div class="level">
+              <input type="checkbox" class="box">PayPal
+            </div>
+            <div class="paypal">
+              <img src="./images/PayPal.png" alt="">
+            </div>
           </div>
           <div class="check-box-22">
-            <input type="checkbox" class="box">Bitcoin<img src="./images/Bitcoin.png" alt="">
+            <div class="level">
+              <input type="checkbox" class="box">Bitcoin
+            </div>
+            <div class="paypal">
+              <img src="./images/Bitcoin.png" alt="">
+            </div>
           </div>
           </div>
           <!-- confirmation card -->
@@ -223,13 +241,32 @@
             <div class="car-type">
               <img src="./images/aligh-car.png" alt="">
             </div>
-            <h2>Nissan GT - R</h2>
-            <img src="./images/Review Star.png" alt="">
-            <span>440+Review</span>
+            <div class="car-type-22">
+              <h3>Nissan GT - R</h3>
+              <img src="./images/Review Star.png" alt="">
+              <span>440+Review</span>
+            </div>
           </div>
           <div class="total">
-            <span>Subtotal</span>
-            <span>$80.00</span>
+            <div class="sub-total">
+              <span class="sub">Subtotal</span>
+            <span class="tax">$80.00</span>
+            </div>
+            <div class="sub-total-1">
+              <Span class="sub">Tax</Span>
+              <Span class="tax">$0</Span>
+            </div>
+          </div>
+          <div class="promo-code">
+            <input type="text" class="promo" placeholder="Apply promo code">
+            <button>Apply Now</button>
+          </div>
+          <div class="price">
+            <div class="trim">
+              <h3>Total Rental Price</h3>
+              <p>Overall price rental</p>
+            </div>
+              <span class="tim">$80.00</span>
           </div>
         </div>
       </div>
