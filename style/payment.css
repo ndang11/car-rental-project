@@ -22,6 +22,7 @@
 
 
 /* mobile view */
+@media (max-width: 320px) {
 body {
   background-color: #f6f7f9;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -282,3 +283,4 @@ button {
   .ending {
     display: none;
   }
+}
