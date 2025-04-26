@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+
+@media (max-width: 370px) {
+    body {
+      background-color: #f3f5f7;
+      padding: 10px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  
+    header {
+      background-color: #ffffff;
+      padding: 10px;
+    }
+  
+    .logo-profile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .file-1,
+    .file-2 {
+      margin-top: 8px;
+    }
+  
+    .logo {
+      margin-top: 30px;
+    }
+  
+    .search-bar {
+      margin-top: 20px;
+      align-items: center;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 5px;
+  
+      img {
+        color: #596780;
+      }
+    }
+
+    .line111 {
+        position: absolute;
+        padding: 3px;
+    }
+  
+    .search-box {
+      height: 30px;
+      border-radius: 8px;
+      align-items: center;
+      padding: 4px;
+      color: #596780;
+      width: 215px;
+      border: 1px solid #9ea6ad;
+      background-color: white;
+      padding-inline: 30px;
+    }
+  
+    .model,
+    .profile,
+    .like,
+    .pro-img,
+    .options {
+      display: none;
+    }
+
+    .chart-detail {
+        border-radius: 8px;
+        padding: 1px;
+        margin-top: 20px;
+    }
+
+    .rental {
+        margin-bottom: 20px;
+
+        img {
+          max-width: 88vw; 
+          margin-top: 20px;
+        }
+    }
+
+    .sport {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        img {
+            width: 25vw;
+        }
+
+        span {
+            color: #9ea6ad;
+            font-weight: 500;
+        }
+    }
+
+    .brand {
+        display: flex;
+        gap: 5px;
+
+        p {
+            color: #9ea6ad;
+            font-weight: 500;
+        }
+    }
+
+    .detail-container-2 {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .personal-info-33 p,
+    .personal-info-44 p {
+        margin-top: 10px;
+        font-weight: 600;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .promo {
+        width: 285px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color: #f6f7f9;
+        margin-top: 10px;
+        padding-inline: 10px;
+      }
+
+      .numbers-11,
+      .numbers-22,
+      .numbers-33 {
+        border-radius: 8px;
+        margin-bottom: 20px;
+        background-color: white;
+        padding: 8px;
+      }
+
+      .price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid #9ea6ad;
+        padding-top: 25px;
+        margin-bottom: 20px;
+
+        p {
+            color: #9ea6ad;
+        }
+      }
+    
+      .tim {
+        font-size: 1.5rem;
+      }
+
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .diagram {
+        justify-items: center;
+      }
+
+      .chart-rating {
+        margin-top: -50px;
+        z-index: 1;
+      }
+    
+
+
+}
