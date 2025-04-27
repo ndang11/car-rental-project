@@ -12,24 +12,34 @@
   }
 
   header {
+    background-color: #ffffff;
+    padding: 25px 25px;
+  }
+
+  .header-destop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .group-2 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    padding: 20px 20px;
+    gap: 25px;
   }
 
   .profile {
     display: flex;
     gap: 10px;
-    margin-right: -300px;
 
     img {
-      background-color: white;
-      border: 3px solid #f3f5f7;
       border-radius: 50px;
-      padding: 5px;
+      padding: 10px;
+      border: 2px solid #9ea6ad;
     }
+  }
+
+  .mobile-header {
+    display: none;
   }
 
   .rental-summary-11 {
@@ -49,7 +59,7 @@
     background-color: white;
     border-radius: 8px;
     padding: 10px;
-    width: 370px;
+    width: 480px;
     height: 470px;
 
     h3 {
@@ -94,6 +104,22 @@
     border: none;
     border-radius: 10px;
     background-color: #f6f7f9;
+    margin-top: 10px;
+    padding-inline: 10px;
+  }
+
+  
+  .promo-code {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f7f9;
+    border-radius: 10px;
+  }
+
+  .promo22 {
+    height: 40px;
+    border: none;
     margin-top: 10px;
     padding-inline: 10px;
   }
@@ -239,6 +265,11 @@
     border: none;
   }
 
+  .rent a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
   .btn {
     display: flex;
     margin-left: 80px;
@@ -338,13 +369,18 @@
   }
 
   header {
+    background-color: white;
+    padding: 20px 20px;
+  }
+
+  .logo-profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding: 10px;
+  }
+
+  .header-destop {
+    display: none;
   }
 
   .profile,
@@ -418,7 +454,17 @@
   }
 
   .promo {
-    width: 285px;
+    width: 265px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f6f7f9;
+    margin-top: 10px;
+    padding-inline: 10px;
+  }
+
+  .promo22 {
+    width: 265px;
     height: 40px;
     border: none;
     border-radius: 10px;
@@ -428,8 +474,19 @@
   }
 
   button {
-    background-color: #f6f7f9;
     border: none;
+  }
+
+  .apply {
+    display: flex;
+    margin-left: -80px;
+    padding-top: 5px;
+    background-color: #f6f7f9;
+  }
+
+  .rent a {
+    color: #ffffff;
+    text-decoration: none;
   }
 
   .price {
@@ -535,7 +592,7 @@
   }
 
   .cvc {
-    width: 270px;
+    width: 250px;
     height: 40px;
     border: none;
     border-radius: 10px;

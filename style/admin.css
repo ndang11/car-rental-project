@@ -115,9 +115,8 @@
     align-items: center;
     display: flex;
     gap: 10px;
-    margin-bottom: 30px;
     color: #9ea6ad;
-    margin-top: 110px;
+    margin-top: 10rem;
   }
 
   .dash-light {
@@ -142,7 +141,7 @@
     border-radius: 8px;
     height: 35px;
     color: #ffffff;
-    width: 200px;
+    width: 230px;
 
     img {
       height: 30px;
@@ -383,13 +382,14 @@
     padding-inline: 30px;
   }
 
-  .model,
-  .like,
-  .options {
+  
+  .header-destop {
     display: none;
   }
 
-  .header-destop {
+  .model,
+  .like,
+  .options {
     display: none;
   }
 

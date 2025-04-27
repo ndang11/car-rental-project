@@ -112,13 +112,14 @@
     }
   }
 
-  .class-model-1 input,
-  .class-model-2 input {
+  .checks {
     display: flex;
+    gap: 6px;
+    padding-bottom: 12px;
+    font-weight: 500;
   }
 
-  .suv {
-    gap: 10px;
+  .suv { 
     color: #9ea6ad;
   }
 
@@ -144,6 +145,11 @@
     background-color: #3563e9;
     border-radius: 5px;
     border: none;
+  }
+
+  .rent a {
+    color: #ffffff;
+    text-decoration: none;
   }
 
   .direction {
@@ -345,6 +351,10 @@
     gap: 40px;
     margin-bottom: 20px;
   }
+
+  .ending-1 {
+    display: none;
+  }
 }
 
 /* mobile view */
@@ -427,6 +437,11 @@
     background-color: #3563e9;
     border-radius: 5px;
     border: none;
+  }
+
+  .rent a {
+    color: #ffffff;
+    text-decoration: none;
   }
 
   .arrow {
@@ -655,5 +670,17 @@
     color: #90a3bf;
     display: flex;
     padding: 5px 10px;
+  }
+
+  .ending-1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .ending {
+    display: none;
   }
 }
