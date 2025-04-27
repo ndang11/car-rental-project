@@ -13,28 +13,19 @@
   }
 
   header {
+    background-color: #ffffff;
+    padding: 25px 25px;
+  }
+
+  .header-destop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .group-1 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    padding: 20px 20px;
-  }
-
-  .profile {
-    display: flex;
-    gap: 10px;
-    margin-right: -300px;
-
-    img {
-      background-color: white;
-      border: 3px solid #f3f5f7;
-      border-radius: 50px;
-      padding: 5px;
-    }
-  }
-
-  .logo-profile {
-    display: none;
+    gap: 100px;
   }
 
   .search-bar {
@@ -49,13 +40,43 @@
   }
 
   .search-box {
-    height: 30px;
-    border-radius: 8px;
-    padding-inline: 20px;
+    height: 40px;
+    border-radius: 50px;
+    padding-inline: 60px;
     color: #596780;
     border: 1px solid #9ea6ad;
     background-color: white;
-    min-width: 120%;
+    min-width: 370px;
+  }
+
+  .line111 {
+    position: absolute;
+    padding: 10px;
+  }
+
+  .line222 {
+    margin-left: -50px;
+  }
+
+  .group-2 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .profile {
+    display: flex;
+    gap: 10px;
+
+    img {
+      border-radius: 50px;
+      padding: 10px;
+      border: 2px solid #9ea6ad;
+    }
+  }
+
+  .mobile-header {
+    display: none;
   }
 
   .main-container {
@@ -132,6 +153,7 @@
     display: flex;
     gap: 25px;
     margin-top: 25px;
+    margin-right: 25px;
   }
 
   .numbers-11,
@@ -218,22 +240,22 @@
     font-size: 2rem;
   }
 
-.detail-container-2 {
+  .detail-container-2 {
     display: none;
-}
+  }
 
-.chart-board {
+  .chart-board {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-.top {
+  .top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
   }
-  
+
   .detail {
     display: flex;
     align-items: center;
@@ -296,20 +318,7 @@
   .numbers-33 {
     width: 30rem;
   }
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
 
 @media (max-width: 370px) {
   body {
@@ -356,6 +365,12 @@
     padding: 3px;
   }
 
+  .line222 {
+    border: 1px solid #9ea6ad;
+    border-radius: 8px;
+    padding: 6px;
+  }
+
   .search-box {
     height: 30px;
     border-radius: 8px;
@@ -369,10 +384,12 @@
   }
 
   .model,
-  .profile,
   .like,
-  .pro-img,
   .options {
+    display: none;
+  }
+
+  .header-destop {
     display: none;
   }
 

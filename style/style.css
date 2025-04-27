@@ -13,51 +13,76 @@
   }
 
   header {
+    background-color: #ffffff;
+    padding: 25px 25px;
+    margin-bottom: 20px;
+  }
+
+  .header-destop {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .group-1 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 60px;
-    background-color: #ffffff;
-    padding: 30px 30px;
-  }
-
-  .profile {
-    display: flex;
-    gap: 10px;
-    margin-right: -300px;
-
-    img {
-      background-color: white;
-      border: 3px solid #f3f5f7;
-      border-radius: 50px;
-      padding: 5px;
-    }
-  }
-
-  .logo-profile {
-    display: none;
+    gap: 100px;
   }
 
   .search-bar {
-    position: relative;
     align-items: center;
     display: flex;
     gap: 10px;
 
     img {
-      height: 40px;
+      height: 30px;
       color: #596780;
     }
   }
 
   .search-box {
-    height: 30px;
-    border-radius: 8px;
-    padding: 4px;
+    height: 40px;
+    border-radius: 50px;
+    padding-inline: 60px;
     color: #596780;
     border: 1px solid #9ea6ad;
     background-color: white;
-    min-width: 120%;
+    min-width: 370px;
+  }
+
+  .line111 {
+    position: absolute;
+    padding: 10px;
+  }
+
+  .line222 {
+    margin-left: -50px;
+  }
+
+  .group-2 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .profile {
+    display: flex;
+    gap: 10px;
+
+    img {
+      border-radius: 50px;
+      padding: 10px;
+      border: 2px solid #9ea6ad;
+    }
+  }
+
+  .mobile-header {
+    display: none;
+  }
+
+  .main-container {
+    display: flex;
+    gap: 25px;
   }
 
   .display-card,
@@ -398,39 +423,43 @@
   }
 
   header {
-    display: flex;
     background-color: #ffffff;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
   }
 
   .logo-profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 120px;
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
 
-  .logo,
-  .profile,
-  .pro-img {
-    display: none;
+  .file-1,
+  .file-2 {
+    margin-top: 8px;
   }
 
   .search-bar {
     margin-top: 20px;
     align-items: center;
-    justify-content: flex-start;
     margin-bottom: 20px;
-    gap: 15px;
+    display: flex;
+    gap: 5px;
 
     img {
       color: #596780;
-      align-items: center;
     }
+  }
+
+  .line111 {
+    position: absolute;
+    padding: 3px;
+  }
+
+  .line222 {
+    border: 1px solid #9ea6ad;
+    border-radius: 8px;
+    padding: 6px;
   }
 
   .search-box {
@@ -439,13 +468,14 @@
     align-items: center;
     padding: 4px;
     color: #596780;
-    width: 160px;
+    width: 215px;
     border: 1px solid #9ea6ad;
-    background-color: #f3f5f7;
+    background-color: white;
+    padding-inline: 30px;
   }
 
-  .search-box :focus {
-    outline: none;
+  .header-destop {
+    display: none;
   }
 
   .display-card {
