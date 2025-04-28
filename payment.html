@@ -1,330 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/payment.css">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/payment.css" />
+  <title>Document</title>
 </head>
+
 <body>
-    <header>
-      <div class="header-destop">
-        <div class="group-1">
-            <div class="logo">
-                <img src="./images/Logo.png" alt="">
-              </div>
+  <header>
+    <div class="header-destop">
+      <div class="group-1">
+        <div class="logo">
+          <img src="./images/Logo.png" alt="" />
         </div>
-        <div class="group-2">
-            <div class="profile">
-                <img src="./images/heart.png" alt="">
-                <img src="./images/notification.png" alt="">
-                <img src="./images/setting-2.png" alt="">
-            </div>
-            <div class="pro-img">
-                <img src="./images/Image-profile.png" alt="">
-              </div>
+      </div>
+      <div class="group-2">
+        <div class="profile">
+          <img src="./images/heart.png" alt="" />
+          <img src="./images/notification.png" alt="" />
+          <img src="./images/setting-2.png" alt="" />
         </div>
+        <div class="pro-img">
+          <img src="./images/Image-profile.png" alt="" />
+        </div>
+      </div>
     </div>
-     <!-- header for mobile -->
+    <!-- header for mobile -->
     <div class="mobile-header">
-    <div class="logo-profile">
-     <div class="file-1">
-        <img src="./images/Logo.png" alt="">
-     </div>
-     <div class="file-2">
-        <img src="./images/Image-profile.png" alt="">
-     </div>
-</div>
+      <div class="logo-profile">
+        <div class="file-1">
+          <img src="./images/Logo.png" alt="" />
+        </div>
+        <div class="file-2">
+          <img src="./images/Image-profile.png" alt="" />
+        </div>
+      </div>
     </div>
-    </header>
-    <main>
-      <div class="rental-summary-11">
+  </header>
+  <main>
+    <div class="rental-summary-11">
+      <h3>Rental Summary</h3>
+      <p>
+        Prices may change depending on the length of the rental and the price
+        of your rental car.
+      </p>
+      <div class="car-description">
+        <div class="car-type">
+          <img src="./images/aligh-car.png" alt="" />
+        </div>
+        <div class="car-type-22">
+          <h3>Nissan GT - R</h3>
+          <img src="./images/Review Star.png" alt="" />
+          <span>440+Review</span>
+        </div>
+      </div>
+      <div class="total">
+        <div class="sub-total">
+          <span class="sub">Subtotal</span>
+          <span class="tax">$80.00</span>
+        </div>
+        <div class="sub-total-1">
+          <span class="sub">Tax</span>
+          <span class="tax">$0</span>
+        </div>
+      </div>
+      <div class="promo-code">
+        <input type="text" class="promo22" placeholder="Apply promo code" />
+        <button class="apply">Apply Now</button>
+      </div>
+      <div class="price">
+        <div class="trim">
+          <h3>Total Rental Price</h3>
+          <p>Overall price rental</p>
+        </div>
+        <span class="tim">$80.00</span>
+      </div>
+    </div>
+    <div class="billing-info">
+      <div class="billing-card">
+        <div class="detail-container">
+          <div class="info">
+            <div class="info-1">
+              <h3>Billing Info</h3>
+              <p>Please enter your billing info</p>
+            </div>
+            <p>Step 1 of 4</p>
+          </div>
+          <div class="draft">
+            <div class="personal-info">
+              <div class="name">
+                <p>Name</p>
+                <input type="text" class="promo" placeholder="Your name" required />
+              </div>
+              <div class="name">
+                <p>Phone Number</p>
+                <input type="text" class="promo" placeholder="Phone number" required />
+              </div>
+            </div>
+            <div class="personal-info-11">
+              <div class="name">
+                <p>Address</p>
+                <input type="text" class="promo" placeholder="Address" required />
+              </div>
+              <div class="name">
+                <p>Town/City</p>
+                <input type="text" class="promo" placeholder="Town or city" required />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- rental info card -->
+        <div class="detail-container-2">
+          <div class="info">
+            <div class="info-1">
+              <h3>Rental Info</h3>
+              <p>Please enter your rental date</p>
+            </div>
+            <p>Step 2 of 4</p>
+          </div>
+          <div class="personal-info-33">
+            <p><img src="./images/Mark-dot.png" alt="" />Pick-Up</p>
+            <div class="grid">
+              <div class="name">
+                <p>Location</p>
+                <select name="text" class="promo">
+                  <option value="text">Select your city</option>
+                  <option value="text">Yaounde</option>
+                  <option value="text">Douala</option>
+                  <option value="text">Buea</option>
+                  <option value="text">Limbe</option>
+                </select>
+              </div>
+              <div class="name">
+                <p>Date</p>
+                <select name="text" class="promo">
+                  <option value="text">Select your date</option>
+                </select>
+              </div>
+              <div class="name">
+                <p>Time</p>
+                <select name="text" class="promo">
+                  <option value="text">Select your time</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <!-- drop off -->
+          <div class="personal-info-44">
+            <p><img src="./images/Mark-dot.png" alt="" />Drop-Off</p>
+            <div class="grid">
+              <div class="name">
+                <p>Location</p>
+                <select name="text" class="promo">
+                  <option value="text">Select your city</option>
+                  <option value="text">Yaounde</option>
+                  <option value="text">Douala</option>
+                  <option value="text">Buea</option>
+                  <option value="text">Limbe</option>
+                </select>
+              </div>
+              <div class="name">
+                <p>Date</p>
+                <select name="text" class="promo">
+                  <option value="text">Select your date</option>
+                </select>
+              </div>
+              <div class="name">
+                <p>Time</p>
+                <select name="text" class="promo">
+                  <option value="text">Select your time</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- payment deatils -->
+        <div class="payment-card">
+          <div class="info">
+            <div class="info-1">
+              <h3>Payment Method</h3>
+              <p>Please enter your payment method</p>
+            </div>
+            <p>Step 3 of 4</p>
+          </div>
+          <div class="credit-card">
+            <div class="credit">
+              <p><img src="./images/Mark-dot.png" alt="" />Credit Card</p>
+              <img src="./images/Visa.png" alt="" />
+            </div>
+            <div class="grid">
+              <div class="personal-info">
+                <div class="name">
+                  <p>Card Number</p>
+                  <input type="text" class="cvc" placeholder="Cardnumber" required />
+                </div>
+                <div class="name">
+                  <p>Expatation Date</p>
+                  <input type="text" class="cvc" placeholder="DD/MM/YY" required />
+                </div>
+              </div>
+              <div class="personal-info-11">
+                <div class="name">
+                  <p>Card Holder</p>
+                  <input type="text" class="cvc" placeholder="Cardholder" required />
+                </div>
+                <div class="name">
+                  <p>CVC</p>
+                  <input type="text" class="cvc" placeholder="CVC" required />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="check-box-11">
+            <div class="level">
+              <input type="checkbox" class="box" />PayPal
+            </div>
+            <div class="paypal">
+              <img src="./images/PayPal.png" alt="" />
+            </div>
+          </div>
+          <div class="check-box-22">
+            <div class="level">
+              <input type="checkbox" class="box" />Bitcoin
+            </div>
+            <div class="paypal">
+              <img src="./images/Bitcoin.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- confirmation card -->
+        <div class="confirmation-card">
+          <div class="info">
+            <div class="info-1">
+              <h3>Confirmation</h3>
+              <p>
+                We are getting to the end. Just few clicks and your rental is
+                ready!
+              </p>
+            </div>
+            <p>Step 4 of 4</p>
+          </div>
+          <div class="check-box-1">
+            <input type="checkbox" /> I agree with sending an marketing and
+            newsletter email. No spam, promised!
+          </div>
+          <div class="check-box-2">
+            <input type="checkbox" /> I agree with our terms and conditions
+            and privacy policy.
+          </div>
+          <div class="btn">
+            <button class="rent"><a href="admin.html">Rental Car</a></button>
+          </div>
+          <div class="security">
+            <img src="./images/ic-security-safety.png" alt="" />
+            <h3>All your data are safe</h3>
+            <p>
+              We are using the most advanced security to provide you the best
+              experience ever
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- aside card -->
+      <div class="rental-summary">
         <h3>Rental Summary</h3>
-        <p>Prices may change depending on the length of the rental and the price of your rental car.</p>
+        <p>
+          Prices may change depending on the length of the rental and the
+          price of your rental car.
+        </p>
         <div class="car-description">
           <div class="car-type">
-            <img src="./images/aligh-car.png" alt="">
+            <img src="./images/aligh-car.png" alt="" />
           </div>
           <div class="car-type-22">
             <h3>Nissan GT - R</h3>
-            <img src="./images/Review Star.png" alt="">
+            <img src="./images/Review Star.png" alt="" />
             <span>440+Review</span>
           </div>
         </div>
         <div class="total">
           <div class="sub-total">
             <span class="sub">Subtotal</span>
-          <span class="tax">$80.00</span>
+            <span class="tax">$80.00</span>
           </div>
           <div class="sub-total-1">
-            <Span class="sub">Tax</Span>
-            <Span class="tax">$0</Span>
+            <span class="sub">Tax</span>
+            <span class="tax">$0</span>
           </div>
         </div>
         <div class="promo-code">
-          <input type="text" class="promo22" placeholder="Apply promo code">
-          <button class="apply">Apply Now</button>
+          <input type="text" class="promo" placeholder="Apply promo code" />
+          <button>Apply Now</button>
         </div>
         <div class="price">
           <div class="trim">
             <h3>Total Rental Price</h3>
             <p>Overall price rental</p>
           </div>
-            <span class="tim">$80.00</span>
+          <span class="tim">$80.00</span>
         </div>
       </div>
-      <div class="billing-info">
-        <div class="billing-card">
-          <div class="detail-container">
-          <div class="info">
-            <div class="info-1">
-            <h3>Billing Info</h3>
-            <p>Please enter your billing info</p>
+    </div>
+  </main>
+  <!-- footer section -->
+  <footer>
+    <div class="footer-details">
+      <div class="side">
+        <img src="./images/Logo.png" alt="" />
+        <p>
+          Our vision is to provide convenience and help increase your sales
+          business.
+        </p>
+      </div>
+      <div class="footer-list">
+        <div class="sec-1">
+          <div class="about">
+            <h4>About</h4>
+            <span class="doc">How it works</span>
+            <span class="doc">Featured</span>
+            <span class="doc">Partnership</span>
+            <span class="doc">Business Relation</span>
           </div>
-              <p>Step 1 of 4</p>
+          <div class="community">
+            <h4>Community</h4>
+            <span class="doc">Events</span>
+            <span class="doc">Blog</span>
+            <span class="doc">Podcast</span>
+            <span class="doc">Invite a friend</span>
           </div>
-          <div class="draft">
-            <div class="personal-info">
-              <div class="name">
-                <p>Name</p>
-                <input type="text" class="promo" placeholder="Your name" required>
-              </div>
-              <div class="name">
-                <p>Phone Number</p>
-                <input type="text" class="promo" placeholder="Phone number" required>
-              </div>
-            </div>
-            <div class="personal-info-11">
-              <div class="name">
-                <p>Address</p>
-                <input type="text" class="promo" placeholder="Address" required>
-              </div>
-              <div class="name">
-                <p>Town/City</p>
-                <input type="text" class="promo" placeholder="Town or city" required>
-              </div>
-            </div>
-          </div>
-          </div>
-          <!-- rental info card -->
-          <div class="detail-container-2">
-            <div class="info">
-              <div class="info-1">
-              <h3>Rental Info</h3>
-              <p>Please enter your rental date</p>
-            </div>
-                <p>Step 2 of 4</p>
-            </div>
-             <div class="personal-info-33">
-              <p><img src="./images/Mark-dot.png" alt="">Pick-Up</p>
-              <div class="grid">
-              <div class="name">
-                <p>Location</p>
-               <select name="text" class="promo">
-                <option value="text">Select your city</option>
-                <option value="text">Yaounde</option>
-                <option value="text">Douala</option>
-                <option value="text">Buea</option>
-                <option value="text">Limbe</option>
-               </select>
-              </div>
-              <div class="name">
-                <p>Date</p>
-               <select name="text" class="promo">
-                <option value="text">Select your date</option>
-               </select>
-              </div>
-              <div class="name">
-                <p>Time</p>
-               <select name="text" class="promo">
-                <option value="text">Select your time</option>
-               </select>
-              </div>
-            </div>
-             </div>
-             <!-- drop off -->
-             <div class="personal-info-44">
-              <p><img src="./images/Mark-dot.png" alt="">Drop-Off</p>
-              <div class="grid">
-              <div class="name">
-                <p>Location</p>
-               <select name="text" class="promo">
-                <option value="text">Select your city</option>
-                <option value="text">Yaounde</option>
-                <option value="text">Douala</option>
-                <option value="text">Buea</option>
-                <option value="text">Limbe</option>
-               </select>
-              </div>
-              <div class="name">
-                <p>Date</p>
-               <select name="text" class="promo">
-                <option value="text">Select your date</option>
-               </select>
-              </div>
-              <div class="name">
-                <p>Time</p>
-               <select name="text" class="promo">
-                <option value="text">Select your time</option>
-               </select>
-              </div>
-             </div>
-             </div>
-          </div>
-          <!-- payment deatils -->
-          <div class="payment-card">
-            <div class="info">
-              <div class="info-1">
-              <h3>Payment Method</h3>
-              <p>Please enter your payment method</p>
-            </div>
-                <p>Step 3 of 4</p>
-            </div>
-            <div class="credit-card">
-              <div class="credit">
-                <p><img src="./images/Mark-dot.png" alt="">Credit Card</p>
-                <img src="./images/Visa.png" alt="">
-              </div>
-              <div class="grid">
-            <div class="personal-info">
-              <div class="name">
-                <p>Card Number</p>
-                <input type="text" class="cvc" placeholder="Cardnumber" required>
-              </div>
-              <div class="name">
-                <p>Expatation Date</p>
-                <input type="text" class="cvc" placeholder="DD/MM/YY" required>
-              </div>
-            </div>
-            <div class="personal-info-11">
-              <div class="name">
-                <p>Card Holder</p>
-                <input type="text" class="cvc" placeholder="Cardholder" required>
-              </div>
-              <div class="name">
-                <p>CVC</p>
-                <input type="text" class="cvc" placeholder="CVC" required>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div class="check-box-11">
-            <div class="level">
-              <input type="checkbox" class="box">PayPal
-            </div>
-            <div class="paypal">
-              <img src="./images/PayPal.png" alt="">
-            </div>
-          </div>
-          <div class="check-box-22">
-            <div class="level">
-              <input type="checkbox" class="box">Bitcoin
-            </div>
-            <div class="paypal">
-              <img src="./images/Bitcoin.png" alt="">
-            </div>
-          </div>
-          </div>
-          <!-- confirmation card -->
-           <div class="confirmation-card">
-            <div class="info">
-              <div class="info-1">
-              <h3>Confirmation</h3>
-              <p>We are getting to the end. Just few clicks and your rental is ready!</p>
-            </div>
-                <p>Step 4 of 4</p>
-            </div>
-            <div class="check-box-1">
-              <input type="checkbox"> I agree with sending an marketing and newsletter email. No spam, promised!
-            </div>
-            <div class="check-box-2">
-              <input type="checkbox"> I agree with our terms and conditions and privacy policy.
-            </div>
-            <div class="btn">
-              <button class="rent"><a href="admin.html">Rental Car</a></button>
-            </div>
-            <div class="security">
-             <img src="./images/ic-security-safety.png" alt="">
-             <h3>All your data are safe</h3>
-             <p>We are using the most advanced security to provide you the best experience ever</p>
-            </div>
-           </div>
         </div>
-        <!-- aside card -->
-        <div class="rental-summary">
-          <h3>Rental Summary</h3>
-          <p>Prices may change depending on the length of the rental and the price of your rental car.</p>
-          <div class="car-description">
-            <div class="car-type">
-              <img src="./images/aligh-car.png" alt="">
-            </div>
-            <div class="car-type-22">
-              <h3>Nissan GT - R</h3>
-              <img src="./images/Review Star.png" alt="">
-              <span>440+Review</span>
-            </div>
-          </div>
-          <div class="total">
-            <div class="sub-total">
-              <span class="sub">Subtotal</span>
-            <span class="tax">$80.00</span>
-            </div>
-            <div class="sub-total-1">
-              <Span class="sub">Tax</Span>
-              <Span class="tax">$0</Span>
-            </div>
-          </div>
-          <div class="promo-code">
-            <input type="text" class="promo" placeholder="Apply promo code">
-            <button>Apply Now</button>
-          </div>
-          <div class="price">
-            <div class="trim">
-              <h3>Total Rental Price</h3>
-              <p>Overall price rental</p>
-            </div>
-              <span class="tim">$80.00</span>
-          </div>
+        <div class="social">
+          <h4>Socials</h4>
+          <span class="doc">Discord</span>
+          <span class="doc">Instagram</span>
+          <span class="doc">Twitter</span>
+          <span class="doc">Facebook</span>
         </div>
       </div>
-    </main>
-        <!-- footer section -->
-        <footer>
-          <div class="footer-details">
-            <div class="side">
-              <img src="./images/Logo.png" alt="">
-              <p>Our vision is to provide convenience and help increase your sales business.</p>
-            </div>
-            <div class="footer-list">
-              <div class="sec-1">
-              <div class="about">
-                <h4>About</h4>
-                <span class="doc">How it works</span>
-                <span class="doc">Featured</span>
-                <span class="doc">Partnership</span>
-                <span class="doc">Business Relation</span>
-              </div>
-              <div class="community">
-                <h4>Community</h4>
-                <span class="doc">Events</span>
-                <span class="doc">Blog</span>
-                <span class="doc">Podcast</span>
-                <span class="doc">Invite a friend</span>
-              </div>
-              </div>
-              <div class="social">
-                <h4>Socials</h4>
-                <span class="doc">Discord</span>
-                <span class="doc">Instagram</span>
-                <span class="doc">Twitter</span>
-                <span class="doc">Facebook</span>
-              </div>
-            </div>
-          </div>
-          <div class="ending-1">
-              <span class="end">Privacy & Policy</span>
-              <span class="end">Terms & Condition</span>
-            </div>
+    </div>
+    <div class="ending-1">
+      <span class="end">Privacy & Policy</span>
+      <span class="end">Terms & Condition</span>
+    </div>
     <div class="foot-ending">
       <p>2022 MORENT. All rights reserved</p>
       <div class="ending">
@@ -334,4 +353,5 @@
     </div>
   </footer>
 </body>
+
 </html>

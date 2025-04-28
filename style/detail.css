@@ -106,11 +106,12 @@
       color: #596780;
       font-weight: bold;
     }
-
-    img {
-      width: 90%;
-    }
   }
+
+  .range {
+    width: 280px;
+  }
+
 
   .checks {
     display: flex;

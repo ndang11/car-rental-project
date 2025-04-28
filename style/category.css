@@ -108,10 +108,10 @@
       color: #596780;
       font-weight: bold;
     }
+  }
 
-    img {
-      width: 80%;
-    }
+  .range {
+    width: 280px;
   }
 
   .checks {
