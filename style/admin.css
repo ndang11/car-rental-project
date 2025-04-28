@@ -245,14 +245,33 @@
 
   .chart-board {
     display: flex;
+    gap: 30px;
+  }
+
+  .category {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    width: 300px;
+  }
+
+  .diagram {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .gram {
+    position: absolute;
+    margin-left: 80px;
+    padding: 4px;
   }
 
   .top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
 
   .detail {
@@ -316,6 +335,7 @@
   .numbers-22,
   .numbers-33 {
     width: 30rem;
+    height: 378px;
   }
 }
 
@@ -382,7 +402,6 @@
     padding-inline: 30px;
   }
 
-  
   .header-destop {
     display: none;
   }
@@ -492,11 +511,17 @@
   }
 
   .diagram {
-    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
 
-    h3 {
-      top: -30px;
-    }
+  .gram {
+    position: absolute;
+    margin-left: 20px;
+    padding: 4px;
   }
 
   .detail {
