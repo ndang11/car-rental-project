@@ -339,7 +339,7 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 414px) {
   body {
     background-color: #f3f5f7;
     padding: 10px;
@@ -468,7 +468,7 @@
   }
 
   .promo {
-    width: 285px;
+    width: 340px;
     height: 40px;
     border: none;
     border-radius: 10px;

@@ -359,7 +359,7 @@
 }
 
 /* mobile view */
-@media (max-width: 380px) {
+@media (max-width: 414px) {
   body {
     background-color: #f3f5f7;
     padding: 15px;
@@ -455,7 +455,7 @@
 
   .name {
     border-right: 1px solid #9ea6ad;
-    padding-right: 3px;
+    padding-right: 20px;
   }
 
   .direction {
