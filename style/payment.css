@@ -108,7 +108,6 @@
     padding-inline: 10px;
   }
 
-  
   .promo-code {
     display: flex;
     align-items: center;
@@ -361,7 +360,7 @@
 }
 
 /* mobile view */
-@media (max-width: 320px) {
+@media (max-width: 380px) {
   body {
     background-color: #f6f7f9;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
