@@ -8,8 +8,8 @@
   body {
     background-color: #f3f5f7;
     padding: 10px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family:
+      "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
 
   header {
@@ -150,6 +150,7 @@
 
   .chart-detail {
     display: flex;
+    justify-content: space-between;
     gap: 25px;
     margin-top: 25px;
     margin-right: 25px;
@@ -343,8 +344,8 @@
   body {
     background-color: #f3f5f7;
     padding: 10px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family:
+      "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
 
   header {
