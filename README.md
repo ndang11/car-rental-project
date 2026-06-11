@@ -1,16 +1,15 @@
-# 🚗 MORENT - Car Rental Platform
+#  MORENT - Car Rental Platform
 
-> A modern web application for browsing and booking car rentals online with a responsive, user-friendly interface.
+A modern web application for browsing and booking car rentals online with a responsive, user-friendly interface.
 
----
 
-## 📌 Problem Statement
+## Problem Statement
 
 Finding and booking rental cars can be time-consuming and confusing, especially with scattered information about pricing, availability, and car features. Many existing platforms lack clear presentation of vehicle details and rental options. This application streamlines the car rental process by providing a centralized platform where users can easily browse, compare, and rent vehicles with transparent pricing.
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - Display a catalog of available rental cars with detailed specifications
 - Enable users to search and filter cars by type, capacity, and price range
@@ -20,7 +19,7 @@ Finding and booking rental cars can be time-consuming and confusing, especially 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Frontend:**  
 - HTML5  
@@ -39,7 +38,7 @@ Finding and booking rental cars can be time-consuming and confusing, especially 
 
 ---
 
-## 🖥 Features
+## Features
 
 - **Homepage** - Hero section with call-to-action, popular car listings, and rental search forms
 - **Category Page** - Filterable car catalog with sidebar filters for type, capacity, and price
@@ -49,35 +48,22 @@ Finding and booking rental cars can be time-consuming and confusing, especially 
 - **Responsive Design** - Mobile-friendly layouts with adaptive navigation
 - **Interactive Elements** - Like buttons, search functionality, and form validation
 
----
-
-## 🔗 Live Demo
-
-**Frontend:** [https://your-live-link.com](https://your-live-link.com)  
-*Note: This is a static frontend prototype. Backend integration required for full functionality.*
-
----
-
 ## ⚙ Installation & Setup
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/morent-car-rental.git
+git clone git@github.com:ndang11/car-rental-project.git
 cd car-rental-project
 ```
 
 Open the project:
 
-```
 open index.html
-```
 
 No build process required - this is a pure HTML/CSS frontend.
 
----
-
-## 🧠 Challenges Faced
+## Challenges Faced
 
 - Creating consistent layouts across multiple page types while maintaining unique designs
 - Implementing responsive design that works well on both desktop and mobile views
@@ -85,17 +71,13 @@ No build process required - this is a pure HTML/CSS frontend.
 - Designing intuitive multi-step forms for the payment process
 - Balancing visual appeal with information density on car listing pages
 
----
-
-## 📚 What I Learned
+## What I Learned
 
 - How to structure a multi-page frontend application with consistent navigation
 - Creating responsive layouts using CSS with media queries
 - Designing user-friendly forms with progressive disclosure (multi-step checkout)
 - Organizing CSS stylesheets for scalability across different page types
 - Building admin dashboards with data visualization and summary cards
-
----
 
 ## Future Improvements
 
@@ -110,7 +92,8 @@ No build process required - this is a pure HTML/CSS frontend.
 
 ---
 
-## 👨🏽‍💻 Author
+## Author
+NDANG-KAH A
 
 **Your Name**  
 Frontend Developer  
